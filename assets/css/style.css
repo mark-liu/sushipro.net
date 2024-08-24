@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-gif {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}
